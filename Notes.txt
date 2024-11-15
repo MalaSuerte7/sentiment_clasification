@@ -1,0 +1,12 @@
+----------------------------------------------------------------------------------------------------------------------
+NOTAS
+----------------------------------------------------------------------------------------------------------------------
+SOBRE EL DATASET:
+Tiene 50k reviews, 25k son de entrenamiento y los otros 25k son para probar. Son balanceados hay 25k negativos y 25k 
+positivos. No se permiten más de 30 reviews por pelicula porque entre más opiniones tienden a aparecer más opiniones
+similares lo que no quieren buscar (correlación matematicamente se puede observar como una grafica lineal). También 
+se nos dice que no es útil asociar terminos con películas (pensé que podríamos asociar terminos a generos pero que
+el modelo aprenda termino para géneros podría no ser tan balanceado y se bsuca un balance). 
+Aqui, importante una review positiva tiene un score >= 7 de 10 puntos y uno negativo tiene score <= 4 de 10 puntos.
+
+----------------------------------------------------------------------------------------------------------------------
